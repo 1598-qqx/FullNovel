@@ -1,7 +1,9 @@
+
 import scrapy
 # from ..items import ProxyTest
 from ..items import FullnovelItem
 import re
+
 """
 1.从分类页面获取所有分类的url
 2.访问每个分类页，获得每个分类的详情页
